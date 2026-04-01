@@ -5,5 +5,15 @@
   ],
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
-  "separateMinorPatch": true
+  "separateMinorPatch": true,
+  "packageRules": [
+    {
+      "matchJsonata": [
+        "hasAttestation = false"
+      ],
+      "prBodyNotes": [
+        ":warning: Warning! No attestation"
+      ]
+    }
+  ]
 }
