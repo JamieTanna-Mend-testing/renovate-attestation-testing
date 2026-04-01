@@ -2,6 +2,6 @@
   "name": "@jamietanna-mend-testing/attestation",
   "version": "0.1.0",
   "devDependencies": {
-    "express-rate-limit": "8.1.0"
+    "express-rate-limit": "8.3.1"
   }
 }
